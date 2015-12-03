@@ -1,4 +1,4 @@
-package
+﻿package
 {
 	import flash.display.MovieClip;
 	import flash.events.Event;
@@ -9,7 +9,7 @@ package
 	
 	/**
 	 * ...
-	 * @author Erwin Henraat
+	 * @author Bram Labruyere
 	 */
 	public class Main extends MovieClip 
 	{
