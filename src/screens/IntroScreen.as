@@ -1,4 +1,4 @@
-package screens 
+﻿package screens 
 {
 	import flash.events.Event;
 	import flash.text.TextField;
@@ -8,14 +8,14 @@ package screens
 	import flash.events.KeyboardEvent;
 	/**
 	 * ...
-	 * @author erwin henraat
+	 * @author Bram Labruyere
 	 */
 	public class IntroScreen extends Screen 
 	{
 		private var title:TextField;
 		private var start:TextField;
 		
-		public static const START_GAME:String = "start game";		
+		public static const START_GAME:String = "Start Game";		
 				
 		
 		
@@ -34,7 +34,7 @@ package screens
 						
 			title = new TextField();
 			title.embedFonts = true;
-			title.text = "pong";
+			title.text = "One Pong Man";
 			title.autoSize = TextFieldAutoSize.CENTER;			
 			title.setTextFormat(textFormat);		
 			
@@ -49,7 +49,7 @@ package screens
 			
 			start = new TextField();
 			start.embedFonts = true;
-			start.text = "press space to start";
+			start.text = "Punch";
 			start.autoSize = TextFieldAutoSize.CENTER;
 			start.setTextFormat(subFormat)
 			

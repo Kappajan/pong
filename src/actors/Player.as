@@ -1,10 +1,10 @@
-package actors 
+﻿package actors 
 {
 	import utils.Controller;	
 	import flash.events.Event;
 	/**
 	 * ...
-	 * @author erwin henraat
+	 * @author Bram Labruyere
 	 */
 	public class Player extends Paddle 
 	{

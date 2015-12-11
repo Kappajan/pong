@@ -1,16 +1,16 @@
-package actors 
+﻿package actors 
 {
 	import flash.events.Event;
 	
 	/**
 	 * ...
-	 * @author erwin henraat
+	 * @author Bram Labruyere
 	 */
 	public class AI extends Paddle 
 	{
 		private var _target:Ball;
 		private var _speed:Number = 0;
-		private var _maxSpeed:Number = 12;
+		private var _maxSpeed:Number = 6;
 		private var _balls:Array;
 		public function set balls(b:Array):void
 		{

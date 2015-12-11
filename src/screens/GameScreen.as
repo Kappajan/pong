@@ -1,4 +1,4 @@
-package screens 
+﻿package screens 
 {
 	import actors.AI;
 	import actors.Ball;
@@ -11,10 +11,10 @@ package screens
 	import flash.geom.Point;
 	import utils.MovementCalculator;
 	import screens.Scoreboard;
-	
+	   
 	/**
 	 * ...
-	 * @author erwin henraat
+	 * @author Bram Labruyere
 	 */
 	public class GameScreen extends Screen
 	{
@@ -30,7 +30,7 @@ package screens
 		private function init(e:Event):void 
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
-				for (var i:int = 0; i < 20; i++) 
+				for (var i:int = 0; i < 2; i++) 
 			{
 				balls.push(new Ball());
 				addChild(balls[i]);

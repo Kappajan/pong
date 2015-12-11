@@ -1,10 +1,10 @@
-package screens 
+﻿package screens 
 {
 	import flash.display.MovieClip;
 	import flash.text.TextFormat;
 	/**
 	 * ...
-	 * @author erwin henraat
+	 * @author B
 	 */
 	public class Screen extends MovieClip
 	{

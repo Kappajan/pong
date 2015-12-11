@@ -17,7 +17,6 @@
 		private var introScreen:IntroScreen;
 		private var gameOverScreen:GameOverScreen;
 		private var soundPlayer:SoundPlayer;
-		
 		public function Main() 
 		{
 			if (stage) init();

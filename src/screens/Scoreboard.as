@@ -1,4 +1,4 @@
-package screens 
+﻿package screens 
 {
 	import flash.display.MovieClip;
 	import flash.display.Shape;
@@ -9,7 +9,7 @@ package screens
 	import screens.Screen;
 	/**
 	 * ...
-	 * @author erwin henraat
+	 * @author Bram Labrueyre
 	 */
 	public class Scoreboard extends Screen
 	{
