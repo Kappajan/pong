@@ -111,9 +111,9 @@
 			checkScore();
 		}		
 		
-		private function checkScore():void 
+		private function checkScore():void
 		{
-			if (scoreboard.player1 >= 1)
+			if (scoreboard.player1 >= 10)
 			{
 				destroy();
 				paddles[1].destroy();				
