@@ -11,12 +11,12 @@
 	 * ...
 	 * @author Bram Labruyere
 	 */
-	public class GameOverScreen extends Screen 
+	public class WinScreen extends Screen 
 	{
 		private var title:TextField;
 		private var timer:Timer;
 		public static const RESET:String = "reset";
-		public function GameOverScreen() 
+		public function WinScreen() 
 		{
 			this.addEventListener(Event.ADDED_TO_STAGE, init);
 			

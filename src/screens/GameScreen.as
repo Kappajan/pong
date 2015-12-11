@@ -1,5 +1,7 @@
 ﻿package screens 
 {
+
+	
 	import actors.AI;
 	import actors.Ball;
 	import actors.Paddle;
@@ -18,12 +20,16 @@
 	 */
 	public class GameScreen extends Screen
 	{
+		private var mumen:Array = [];
 		private var balls:Array = [];
 		private var paddles:Array = [];
 		private var scoreboard:Scoreboard;
+		static public const WIN:String = "Victory";
 		static public const GAME_OVER:String = "game over";
 		static public const BALL_BOUNCE:String = "ballBounce";
 		public function GameScreen() 
+		
+		
 		{
 			this.addEventListener(Event.ADDED_TO_STAGE, init);			
 		}				
@@ -107,7 +113,13 @@
 		
 		private function checkScore():void 
 		{
-			if (scoreboard.player1 >= 10 || scoreboard.player2 >= 10)
+			if (scoreboard.player1 >= 1)
+			{
+				destroy();
+				paddles[1].destroy();				
+				dispatchEvent(new Event(WIN));
+			}
+			if (scoreboard.player2 >= 10)
 			{
 				destroy();
 				paddles[1].destroy();				
